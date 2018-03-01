@@ -2,10 +2,9 @@
 /* eslint-disable no-undef */
 
 const stdoutChunks = [];
-const JOIN_SEPARATOR = "\r\n\u001b[0m\u001b[0m\r\n\u001b[0m"
+const JOIN_SEPARATOR = "\r\n\u001b[0m\u001b[0m\r\n\r\n"
 const SPLIT_SEPARATORS = [
-  "\\r\\n\\u001b\\[0m\\u001b\\[0m\\r\\n\\u001b\\[0m",
-  "\\r\\n\\u001b\\[0m\\u001b\\[0m\\r\\r\\n\\u001b\\[0m",  // double carriage return
+  "\\r\\n\\u001b\\[0m\\u001b\\[0m\\r\\n\\r\\n"
 ]
 
 module.exports = {
